@@ -1,2 +1,2 @@
 # DropboxCopyCleanup
-Clean up duplicate copies of files resulting from faulty Dropbox sync.
+This script helps clean up file conflict issues caused by Dropbox failing to resolve which files are current, between online and local files. The script is supposed to avoid the difficulty of having to manually decide this for each file. The script assumes that you have decided to retain either the server files or the local ones. It is highly recommended that the script should be ran while Dropbox is running.
